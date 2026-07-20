@@ -1,1 +1,56 @@
 /* Sif Enajah Smart Academy Styles */
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f5f7fb;
+    color:#222;
+    direction:rtl;
+    text-align:center;
+}
+
+h1{
+    background:#0b2c5f;
+    color:#FFD700;
+    padding:30px;
+    margin:0;
+    font-size:40px;
+}
+
+p{
+    font-size:20px;
+}
+
+h2{
+    color:#0b2c5f;
+    margin-top:40px;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    background:white;
+    margin:10px auto;
+    width:85%;
+    max-width:600px;
+    padding:15px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+    font-size:20px;
+}
+
+li:hover{
+    background:#FFD700;
+    color:#0b2c5f;
+    transform:scale(1.03);
+    transition:.3s;
+}
+
+footer{
+    background:#0b2c5f;
+    color:white;
+    padding:20px;
+    margin-top:40px;
+}
